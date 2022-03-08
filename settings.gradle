@@ -1,0 +1,6 @@
+rootProject.name = 'emailClient'
+include 'client'
+include 'core'
+include 'gui'
+include 'core'
+
