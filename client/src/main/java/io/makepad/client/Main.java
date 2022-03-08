@@ -1,13 +1,9 @@
 package io.makepad.client;
 
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.TreeItem;
-import javafx.scene.control.TreeView;
+import javafx.scene.Scene;;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
-
 
 public class Main extends Application {
 
