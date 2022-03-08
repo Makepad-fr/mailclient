@@ -1,8 +1,8 @@
 package io.makepad.client;
 
+import io.makepad.client.scenes.MailReaderScene;
 import javafx.application.Application;
-import javafx.scene.Scene;;
-import javafx.scene.layout.VBox;
+;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -13,11 +13,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        MailList l = new MailList();
-        Scene scene = new Scene(new VBox(l));
-
+        MailReaderScene scene = new MailReaderScene();
         primaryStage.setScene(scene);
-
         primaryStage.show();
     }
 

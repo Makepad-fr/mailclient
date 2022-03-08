@@ -19,7 +19,7 @@ dependencies {
 }
 
 application{
-    mainClass.set("io.makepad.client.PaneExample");
+    mainClass.set("io.makepad.client.Main");
 }
 test {
     useJUnitPlatform()

@@ -1,12 +1,12 @@
-package io.makepad.client;
+package io.makepad.client.controls;
 
 import com.sun.source.tree.Tree;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
 import javafx.scene.layout.VBox;
 
-public class MailList extends TreeView<String> {
-    MailList(){
+public class MailListTreeView extends TreeView<String> {
+    public MailListTreeView(){
         TreeItem<String> rootItem = new TreeItem<String>("Mail list");
 
         TreeItem<String> mail1 = new TreeItem<String>("idilsaglam1@hotmail.com");
